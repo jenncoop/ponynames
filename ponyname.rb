@@ -1,5 +1,5 @@
 class PonyName
-  
+
   PONY_FIRST_NAME_OPTIONS = ["Trotty", "Stinky", "Gallopy", "Glitter", "Poppy", "Bucky", "Stride", "Flower", "Buckles"]
   PONY_LAST_NAME_OPTIONS = ["MacSparkleHooves", "Lavender-Butterfly", "HoneyBunch-McFee", "McChaps", "Van WinkleMane", "Lazy-Prance", "Fluffy-Bottom", "Jingle-Hooves"]
   PONY_TYPES = ["Unicorn", "Pegasus"]
@@ -25,9 +25,9 @@ class PonyName
 
   def discover_pony_type(first_name)
     if initial(first_name).match(/[a-gA-G]/)
-      return PONY_TYPES[0]
+      PONY_TYPES[0]
     else
-      return PONY_TYPES[1]
+      PONY_TYPES[1]
     end
   end
 
