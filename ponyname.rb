@@ -48,19 +48,19 @@ class PonyName
     ("A".."Z").each do |char|
       if char =~ /[a-cA-C]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[0] : hash[char] = PONY_LAST_NAME_OPTIONS[0]
-      elsif char =~ /[d-fD-F]+/
+      elsif char =~ /[d-fD-F]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[1] : hash[char] = PONY_LAST_NAME_OPTIONS[1]
-      elsif char =~ /[g-iG-I]+/
+      elsif char =~ /[g-iG-I]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[2] : hash[char] = PONY_LAST_NAME_OPTIONS[2]
-      elsif char =~ /[j-lJ-L]+/
+      elsif char =~ /[j-lJ-L]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[3] : hash[char] = PONY_LAST_NAME_OPTIONS[3]
-      elsif char =~ /[m-oM-O]+/
+      elsif char =~ /[m-oM-O]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[4] : hash[char] = PONY_LAST_NAME_OPTIONS[4]
-      elsif char =~ /[p-rP-R]+/
+      elsif char =~ /[p-rP-R]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[5] : hash[char] = PONY_LAST_NAME_OPTIONS[5]
-      elsif char =~ /[s-uS-U]+/
+      elsif char =~ /[s-uS-U]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[6] : hash[char] = PONY_LAST_NAME_OPTIONS[6]
-      elsif char =~ /[v-xV-X]+/
+      elsif char =~ /[v-xV-X]/
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[7] : hash[char] = PONY_LAST_NAME_OPTIONS[7]
       else
         is_first ? hash[char] = PONY_FIRST_NAME_OPTIONS[8] : hash[char] = PONY_LAST_NAME_OPTIONS[8]
