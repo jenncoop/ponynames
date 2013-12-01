@@ -70,7 +70,7 @@ class PonyName
 
 end
 
-puts "Welcome to PONY NAME DESIGNATOR!!!"
+puts "********* Welcome to PONY NAME DESIGNATOR!!! *********"
 
 puts "Enter Your First Name:"
 
